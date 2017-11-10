@@ -2,9 +2,8 @@
 set -e
 
 #
-# React
+# React Webpack
 #
-
 node unitejs/cli/bin/unite configure --packageName=re-wpk-js-jas-pro --title="React Webpack JavaScript" --sourceLanguage=JavaScript --moduleType=CommonJS --bundler=Webpack --unitTestRunner=Jest --unitTestFramework=Jasmine --unitTestEngine=JSDom --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --appFramework=React --disableVersionCheck --outputDirectory=./apps/re-wpk-js-jas-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/re-wpk-js-jas-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/re-wpk-js-jas-pro
